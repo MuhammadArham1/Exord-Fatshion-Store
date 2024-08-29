@@ -1,0 +1,595 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Home</title>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+<link rel="shortcut icon" type="image/png" href="Logo.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+
+.x{
+	color: #c92800;
+}
+
+.z{
+	margin-left: 300px;
+}
+.search{border: none;
+	border-bottom: 5px;
+	border-color: black;
+	border-radius: 25px;
+	outline: none;
+}
+
+.d{
+	margin-top: 150px;
+	height: 130px;
+	margin-left: 450px;
+}
+
+.mb{
+	background-color: transparent;
+	height: 50px;
+	width: 90px;
+	color: white;
+	border-color: #c92800;
+	border-radius: 15px;
+	margin-left: 580px;
+}
+.mb:hover{
+	background-color: #c92800;
+	color: white;
+}
+.vd{
+	background-color: white;
+	height: 1100px;
+	border-radius: 5px;
+	margin-left: 0px;
+	box-shadow: 0px 0px 5px 5px  rgb(211, 203, 203);
+	margin-top: 30px;
+}
+.ba{
+	margin-top: 10px;
+	height: 575px;
+	width: 97%;
+	background-color:white ;
+	box-shadow: 0px 0px 5px 5px rgb(211, 203, 203);
+	border-radius: 5px;
+	position: absolute;
+}
+.tt{
+	font-family: serif;
+	margin-top: 30px;
+	color: #c92800;
+}
+.aa{
+	height: 200px;
+	width: 200px;
+	box-shadow: 0px 0px 5px 5px solid rgb(211, 203, 203);
+	margin-left: 100px;
+	margin-top: 80px;
+}
+.card{
+	margin: 5% 0%;
+	}
+  
+.card-body{
+	margin: 0% 0% 0% 3%;
+	padding: 6% 0%;
+}
+footer {
+  background: #16222A;
+  background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+  background:#c92800;
+  color: white;
+  margin-top:100px;
+}
+
+footer a {
+  color: #fff;
+  font-size: 14px;
+  transition-duration: 0.2s;
+}
+
+footer a:hover {
+  color: #FA944B;
+  text-decoration: none;
+}
+
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+  padding-top: 2em;
+  color: white;
+}
+
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+
+ 
+
+.social-network a.icoFacebook:hover {
+  background-color: #3B5998;
+}
+
+.social-network a.icoLinkedin:hover {
+  background-color: #007bb7;
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoLinkedin:hover i {
+  color: #fff;
+}
+
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+  color: #44BCDD;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.social-circle li i {
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.social-circle i {
+  color: #595959;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.social-network a {
+  background-color: #F9F9F9;
+}
+.card{
+
+	transition: .5s;
+}
+
+.card:hover{
+
+transform:scale(1.1);
+
+} 
+
+.btn{
+	font-family: 'Relway', "sans-serif";
+	height: 55px;
+	width: 150px;
+	color: white;
+	font-weight: 600;
+	font-size: 19px;
+	background-color: #c92800;
+	border-radius: 25px;
+	margin-left: -270px;
+	margin-top: 50px;
+	border-color: white;
+	color:white;
+	transition: .5s;
+	border-color: #c92800;
+	border:2px solid black;
+	background-color:rgba(201,40,0,1);
+}
+
+.btn:hover{
+background-color:rgba(201,40,0,0.7);
+transform:scale(1.1);
+
+} 
+
+
+
+
+.logo{
+		height:80px;
+	}
+	
+.link{
+		padding-left:5%;
+		margin-left:20%;
+		font-size:20px;
+		font-family: 'Relway', "sans-serif";
+	}
+	
+.nav{
+		height:70px;
+		box-shadow:0px 0px 5px 1px #999999;
+	}
+.text{
+		color: #c92800;
+		font-size:50px;
+		font-weight:500; 
+		color:#C00; 
+		font-family:'MS Serif', 'New York', serif;
+	}
+
+.a{
+	height:300px;
+	width:350px;
+	margin-top:30px;
+	
+	}
+	
+.b{
+	height:300px;
+	width:350px;
+	margin-top:10px;
+	margin-left:-10px;
+	}
+	
+.c{
+	height:280px;
+	width:250px;
+	margin-top:10px;
+	}
+
+.e{
+	height:300px;
+	width:350px;
+	margin-top:20px;
+	margin-left:-30px;
+	}
+	
+.img{
+		transition:0.5s;
+	}
+
+.img:hover{
+		transform:scale(0.9,0.9);
+	}
+	.main{
+	  width:100%;
+	  height:500px;
+	  position:relative;	
+	}
+	.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cn{height:190px;
+width:270px;
+}
+.bdn
+</style>
+</head>
+
+
+<body>	
+	<div class="container-fluid">
+	
+    
+<nav class="navbar navbar-expand-lg navbar-light bg-light nav fixed-top">
+  <a class="navbar-brand"><img src="Logo.png" class="logo"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active link">
+        <a class="nav-link text-danger" href="index.html">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item link">
+        <a class="nav-link text-danger" href="products.html">Products</a>
+      </li>
+      <li class="nav-item link">
+        <a class="nav-link text-danger" href="contactus.html">Contact</a>
+      </li>
+      <li class="nav-item link">
+        <a class="nav-link text-danger" href="aboutus.html">About</a>
+      </li>
+      <li class="nav-item link">
+        <a class="nav-link text-danger" href="feedback.html">Feedback</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<br>
+
+		
+     <div class="container">
+  <img src="home3.webp" alt="Snow" style="width:100%;">
+  <div class="centered"><img src="Logo.png" alt="logo" class="cn"><a href="products.html" class="text-dark"><br>
+				<button type="button" class="btn ml-5 mb-5 mr-5" >SHOP NOW</button>
+</a></div>
+</div>
+        <hr>
+<center><h1 id="welcometext" style="font-family: 'Relway', "sans-serif";"></h1></center>
+
+		<div class="container-fluid v">
+            <h1 class="text-dark" style="font-family: serif; margin-top: 50px;"><center><b style=" color:#c92800;">Products</b></center></h1>
+			<div class="card-deck row mt-5">
+			
+			  <div class="col-xs-12 col-sm-6 col-md-4">
+			  <div class="card">
+			
+				<div class="view overlay">
+				  <img class="card-img-top" height="280" src="bn.jpg" alt="Card image cap">
+				  <a href="#!">
+					<div class="mask rgba-white-slight"></div>
+				  </a>
+				</div>
+			
+				
+			  </div>
+			  </div>
+			
+			  <div class="col-xs-12 col-sm-6 col-md-4">
+			  
+			  <div class="card mb-4">
+			
+				<div class="view overlay">
+				  <img class="card-img-top" height="280" src="used-shoes-1.jpg" alt="Card image cap">
+				  <a href="#!">
+					<div class="mask rgba-white-slight"></div>
+				  </a>
+				</div>
+			
+							
+			
+			  </div>
+			  
+			</div>
+			
+			<div class="col-xs-12 col-sm-6 col-md-4">
+			  
+			  <div class="card mb-4">
+			
+			
+				<div class="view overlay">
+				  <img class="card-img-top" height="280" src="im1.png" alt="Card image cap">
+				  <a href="#!">
+					<div class="mask rgba-white-slight"></div>
+				  </a>
+				  
+				  
+				</div>
+				
+			  </div>
+			  <a href="products.html" class="text-dark">
+				<button type="button" class="btn">See more</button>
+</a>
+			</div>
+
+			    
+	</div>
+		  
+	</div>
+    
+<br><br><br><br>
+
+<hr>
+
+
+
+<div class="container">
+<h1 class="text-center mt-5 text">Our Gallery</h1>
+	<div class="row">
+    	<div class="col-lg-4 img">
+        	<img src="img/1.jpg" class="a">
+        </div>
+        
+     <div class="col-lg-4 img">
+        	<img src="img/2.jpeg" class="a">
+        </div>
+        
+     <div class="col-lg-4 img">
+        	<img src="img/3.jpg" class="a">
+        </div>
+        
+     
+        
+     <div class="col-lg-4 img">
+        	<img src="img/4.webp" class="b">
+        </div>
+        
+     <div class="col-lg-4 img">
+        	<img src="img/5.jpg" class="b">
+        </div>
+        
+     <div class="col-lg-4 img">
+        	<img src="img/6.jpg" class="b">
+        </div>
+        
+        
+        
+     <div class="col-sm-3 img">
+        	<img src="img/7.jpg" class="c">
+        </div>
+        
+     <div class="col-sm-3 img">
+        	<img src="img/12.avif" class="c">
+        </div>
+        
+     <div class="col-sm-3 img">
+        	<img src="img/8.jpg" class="c">
+        </div>
+        
+     <div class="col-sm-3 img">
+        	<img src="img/13.jpg" class="c">
+        </div>
+        
+        
+        
+     <div class="col-lg-4 img">
+        	<img src="img/9.jpg" class="e">
+        </div>
+        
+     <div class="col-lg-4 img">
+        	<img src="img/10.jpg" class="e">
+        </div>
+        
+     <div class="col-lg-4 img">
+        	<img src="img/11.jpg" class="e">
+        </div>
+    </div>
+    </div>
+    <hr>
+    <div class="container">
+    <h1 class="text-center mt-5 text">About Us</h1>
+    <div class="row">
+       <div class=" col-md-6 mt-5">
+       <img src="photo-1441986300917-64674bd600d8.jfif" class="img-fluid" alt="Responsive image">
+       </div>
+       <div class="col-md-6">
+       <h1 class="text mt-5">What We Do</h1>
+       
+       <div class="tex tt">
+       <p>Welcome to  <b>Thrift Fashion Store ,</b>  your number one source for all things product, ie: shoes, bags, cloths etc. We're dedicated to giving you the very best of product, with a focus on three characteristics, ie: dependability, customer service and uniqueness.
+       Founded in 2020 by Alex Jennifer, Thrift Fashion Store has come a long way from its beginnings in a starting location, ie: online platform for the time of Covid .<br>
+        
+       </div>
+       <a href="aboutus.html" class="text-dark">
+				<button type="button" class="btn ml-5 mb-2" >See more</button>
+</a>
+       </div>
+    </div>
+    </div>
+    <footer class="mainfooter" role="contentinfo">
+
+
+<div class="jumbotron nsletter" style="background: #c92800; height:180px;">
+		<div class="row">
+	<div class="col-sm"><h1 style="font-family: Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, 'serif'; font-size: 52px; position: inherit; margin-left:43px;">Newsletter</h1></div><div class="col-sm"><form><input style="width: 80%; border-radius: none; height: 70px; position: inherit;" type="email" placeholder="Enter your Email*"><input class="ss" style="width: 20%; border-radius: none; height: 70px; border: 1px gray solid; background: black; color: white" type="submit"> </form></div>
+	</div></div>
+
+	<hr style="width:90%; background-color:rgba(255,255,255,1);">
+
+
+  <div class="footer-middle">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        
+        <div class="footer-pad">
+          <h4>Customer Care </h4>
+          <ul class="list-unstyled">
+            <li><a href="#"></a></li>
+            <li><a href="#">Payment Center</a></li>
+            <li><a href="#">Contact Directory</a></li>
+            <li><a href="#">Return & Exchange</a></li>
+            <li><a href="#">Shipping & Handling</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Product Changing policy</a></li>
+             
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+     
+        <div class="footer-pad">
+          <h4>Product</h4>
+          <ul class="list-unstyled">
+            <li><a href="#">Site Builder</a></li>
+            <li><a href="#">Shopping Cart Software</a></li>
+            <li><a href="#">Disclaimer</a></li>
+            <li><a href="#">Marketing Tools</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Credit Card Processing</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+       
+        <div class="footer-pad">
+          <h4>General</h4>
+          <ul class="list-unstyled">
+      
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Become a Partner</a></li>
+            <li><a href="#">Where To buy</a></li>
+            <li><a href="#">Contact</a></li>
+             
+            <li><a href="#">About</a></li>
+            <li>
+              <a href="#"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    	<div class="col-md-3">
+    		<h4>Follow Us</h4>
+            <ul class="social-network social-circle">
+             <li><a href="https://www.facebook.com/login/" class="facebook" title="Facebook"><img src="fb.png" style="margin-top:-5px; margin-left:-5px; width:40px;"></a></li>
+             <li><a href="https://www.linkedin.com/login" class="linkedin" title="Linkedin"><img src="li.png" style="margin-top:-5px; margin-left:-5px; width:40px;"></a></li>
+              <li><a href="https://www.instagram.com/accounts/login/?hl=en" class="instagram" title="Instagram"><img src="insta.png" style="margin-top:-5px; margin-left:-5px; width:40px;"></a></li>
+            </ul>				
+		</div>
+    </div>
+	<div class="row">
+		<div class="col-md-12 copy">
+			<p class="text-center">&copy; Copyright 2022 - Thrift Fashion.  All rights reserved.</p>
+		</div>
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+
+  person = prompt("Please enter your name");
+  if (person != null) {
+    document.getElementById("welcometext").innerHTML =
+    "Welcome " + person + "!"
+  }
+
+</script>
+</body>
+</html>

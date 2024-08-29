@@ -1,0 +1,296 @@
+.img{width: 100%;}
+   .prodinfo{z-index: 5;; width: 100%; background-color: rgba(0,0,0,0.4); position: fixed; height: 100%; display: flex; align-items: center; justify-content: center;}
+   .info{background-color: white;
+padding: 50px; padding-block: 100px; display: block;}
+.slidercls{
+    width: 500px;
+   
+}
+.slidercls img{
+    border: 1px solid black;
+}
+*{
+    font-family: 'Raleway', sans-serif;
+  } 
+  .carousel-control-prev{
+    background-image: linear-gradient(90deg, rgba(0,0,0,0.1), transparent);
+  }
+  .carousel-control-next{
+    background-image: linear-gradient(270deg, rgba(0,0,0,0.1), transparent);
+  }
+#infooldprice{
+    font-size: large;
+    font-weight: 500;
+}
+#total{
+    font-weight: 800;
+    font-size: 20px;
+}
+.oldprice{
+    font-size: large;
+    font-weight: 500;
+    margin-top: -15px;  
+}
+#sldimg1{
+    width: 100%;
+    height: 400px;
+}
+.cartdiv2{
+    text-align: center;
+    border-top: 1px dotted black;
+    position: fixed;
+    top: 571px;
+    width: 70.1%;
+    margin-left: -15px;
+    background-color: white;
+    padding-block: 10px;
+}
+#sldimg2{
+    width: 100%;
+    height: 400px;
+}
+#infonewprice{
+    font-weight: 600;
+    color:#c92800;
+    margin-top: 10px;
+    font-size:  40px;
+    font-weight: 700;
+}
+.newprice{
+    font-weight: 600;
+    color:#c92800;
+    margin-top: -12px;
+    margin-bottom: -5px;
+    font-size:  20px;
+    font-weight: 700;
+    
+}
+.cprodinfo{
+    text-align: center;
+   
+    width: 80%;
+}
+#infoname{
+    font-size: 60px;
+}
+.prodname{
+    font-size: 20px;
+}
+.sizes{
+    margin-left: 10px;
+}
+.sizess{
+    margin-top: 10px;
+    width: 60px;
+}
+.addtocartinfo{
+    background-color: #c92800;
+    width: 200px;
+    height: 50px;
+    border-radius: 100px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    transition: .5s;
+}
+.addtocartinfo:hover{
+    background-color: #d1502f;
+    scale: 1.2;
+}
+.back{
+    background-color: #dfdfdf;
+    margin-top: 15px;
+    width: 70px;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    color: rgb(78, 78, 78);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    transition: .3s;
+}
+.back:hover{
+    background-color: #b6b6b6;
+}
+.back:focus{
+    background-color: #505050;
+    color: rgb(233, 233, 233);
+}
+
+.infotab{
+    width: 450px;
+    border: 10px solid white;
+}
+.carticon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    background-color: white;
+    border: 3px solid black;
+    right: 2%;
+    bottom: 2%;
+}
+#cartnumber{
+    background-color: red;
+    font-size: 6;
+    color: white;
+    position: fixed;
+    margin-right: 35px;
+    margin-top: -15px;
+    width: 16px;
+    height: 16px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+.cart{
+        box-shadow: 0px 0px 0px 1000px rgba(0,0,0,0.4),0px 0px 0px 1000px rgba(0,0,0,0.4) inset;
+     
+        display: flex;
+        justify-content:center ;
+        align-items: center;  
+        position: fixed;
+        top: 0;
+        left: 0;
+        width:90%; 
+        margin: 5%;
+        margin-block: 125px;
+        
+        
+    }
+    .cartdiv{
+        border-bottom: 1px solid black;
+        padding-block: 20px;
+        background-color: rgb(240, 240, 240);
+        
+        
+    }
+    .cproduct div img {
+        height: 98px;
+        border: 1px solid rgba(0,0,0,0.3);
+
+    }
+    .turnoff .cart-items {
+        display: none;
+        overflow-y: none; height: 1000px;
+    }
+    .cart-items{
+        border:3px solid rgba(37, 0, 0,0.9);
+        display: block;
+        width: 80%;
+        background-color: white;
+        text-align: center;
+        overflow-y: scroll; height: 600px;
+        
+    }
+    #cartback{
+float: left; margin-right: -16%;
+    }
+    .prod{
+        margin-block: 10px;
+        border: 0.5px solid rgb(78, 78, 78);      
+        margin-bottom: 0px;
+        transition: 0.3s;
+        transform: scale(0.95);
+    }
+    .prod img{
+        border-bottom: 1px solid rgb(240, 240, 240);
+        border-right: 1px solid rgb(240, 240, 240);
+        border-left: 1px solid rgb(240, 240, 240);
+    }
+    .prod:hover{
+        margin-block: -5px;
+        box-shadow: 0px 0px 10px 1px  rgba(0,0,0,0.25);
+        transform: scale(0.97);
+    }
+    
+    .cproduct{
+        height: 100px;
+        border-bottom: 1px solid black;
+    }
+
+    .cartdeletebutton{
+        height: 40px;
+        background-color: gray;
+        color: white;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+        cursor: default;
+        border-radius: 100px;
+    }
+    .checkout{
+        background-color: #c92800;
+        height: 50px;
+        width: 200px;
+        border-radius: 100px;
+        color: white;
+        font-weight: 600;
+        margin-block: 5px;
+        transition: 0.5s;
+    }
+    .checkout:hover{
+        margin-bottom: 0px;
+        height: 55px;
+        width: 280px;
+    }
+    #purchasetext{
+        font-family:  'Raleway', sans-serif;
+        height: 800px;
+        display: none;
+    }
+    .cartprodnewprice{
+font-size: 20px;
+margin-block: -20px;
+font-family:'Times New Roman', Times, serif ;
+color: #c92800;
+    }
+
+    .turnoff * {
+        border: none;
+        display:none
+    }
+    .turnoff{
+        border: none;
+        display: none;
+    
+    }
+    
+   
+@media (max-width:576px) {
+    
+    
+        .prod img{
+            height: 500px;
+        }
+         
+}
+@media (max-width:876px) {
+    .cprodinfo{
+        
+        width: 50%;
+    }
+    .prodinfo{
+        transform: scale(0.65);
+        
+    }
+    .info{box-shadow: 0px 0px 0px 1000px rgba(0,0,0,0.4);
+        background-color: white;}
+    .infotab{
+        width: 100%;
+        border: 10px solid white;
+    }
+}
+
+
+

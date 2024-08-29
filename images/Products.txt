@@ -1,0 +1,19 @@
+					( Men & Women )
+
+1.Pants 
+2.Full Sleves Shirts 
+3.Half Sleves Shirts 
+4.Trousers 
+5.Shoes 
+6.Caps
+7.Full Sleves T-Shirts
+8.Half Sleves T-Shirts
+
+Color ( #c92800 )
+<link rel="shortcut icon" type="image/png" href="LOGOS/1.jpg">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap" rel="stylesheet">
+
